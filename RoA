@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="26.1.3">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1588" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="794" dy="412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -41,19 +41,19 @@
           <mxGeometry y="180" width="273" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-129" value="Regions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6" y="280" width="261" height="143" as="geometry" />
+          <mxGeometry x="6" y="280" width="261" height="169" as="geometry" />
         </mxCell>
-        <mxCell id="jGy2fupayMAlgPWBiWUq-130" value="+ ClickStatus: Bool&lt;div&gt;&lt;div&gt;+ ActiveScreen: int&lt;/div&gt;&lt;div&gt;+ RegionOwner: Int&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ RegionName: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-129" vertex="1">
-          <mxGeometry y="26" width="261" height="70" as="geometry" />
+        <mxCell id="jGy2fupayMAlgPWBiWUq-130" value="+ ClickStatus: Bool&lt;div&gt;&lt;div&gt;+ ActiveScreen: int&lt;/div&gt;&lt;div&gt;+ RegionOwner: Int&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ RegionName: string&lt;/div&gt;&lt;div&gt;+ Stability: Int&lt;/div&gt;&lt;div&gt;+ CharacterRegion: IMG&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-129" vertex="1">
+          <mxGeometry y="26" width="261" height="96" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-131" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jGy2fupayMAlgPWBiWUq-129" vertex="1">
-          <mxGeometry y="96" width="261" height="8" as="geometry" />
+          <mxGeometry y="122" width="261" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-132" value="+ ShowMode(ClickStatus, ActiveScreen): Void&lt;div&gt;+ ChangeOwner(RegionOwner): Int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-129" vertex="1">
-          <mxGeometry y="104" width="261" height="39" as="geometry" />
+          <mxGeometry y="130" width="261" height="39" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-133" value="ListArmy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360.5" y="733" width="243" height="164" as="geometry" />
+          <mxGeometry x="360.5" y="773" width="243" height="164" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-134" value="&lt;div&gt;- TextArmy: string&lt;/div&gt;+ Spearman: Int&lt;div&gt;+ Clubbers: Int&lt;/div&gt;&lt;div&gt;+ Slingers: Int&lt;/div&gt;&lt;div&gt;+ WesternMen: Int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-133" vertex="1">
           <mxGeometry y="26" width="243" height="90" as="geometry" />
@@ -65,16 +65,16 @@
           <mxGeometry y="124" width="243" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-138" value="Army" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="402" y="541" width="160" height="141" as="geometry" />
+          <mxGeometry x="402" y="541" width="160" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="jGy2fupayMAlgPWBiWUq-139" value="&lt;div&gt;+ Army&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Range&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Army&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Morale: Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ArmyOwner: Int&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ArmyName: string&lt;/div&gt;&lt;div&gt;+ ArmyBattle: Bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-138" vertex="1">
-          <mxGeometry y="26" width="160" height="81" as="geometry" />
+        <mxCell id="jGy2fupayMAlgPWBiWUq-139" value="&lt;div&gt;+ Army&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Range&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Army&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Morale: Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ArmyOwner: Int&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ArmyName: string&lt;/div&gt;&lt;div&gt;+ ArmyBattle: Bool&lt;/div&gt;&lt;div&gt;+ CharacterArmy: IMG&lt;/div&gt;&lt;div&gt;+ ArmyPosXY: Int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-138" vertex="1">
+          <mxGeometry y="26" width="160" height="113" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jGy2fupayMAlgPWBiWUq-138" vertex="1">
-          <mxGeometry y="107" width="160" height="8" as="geometry" />
+          <mxGeometry y="139" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-141" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-138" vertex="1">
-          <mxGeometry y="115" width="160" height="26" as="geometry" />
+          <mxGeometry y="147" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-144" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jGy2fupayMAlgPWBiWUq-138" target="jGy2fupayMAlgPWBiWUq-128" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -173,7 +173,7 @@
         <mxCell id="jGy2fupayMAlgPWBiWUq-168" value="+ BuildingAdd(RegionName, AddNumber): Void&lt;div&gt;+ BuildingDemolish(RegionName): Void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-165" vertex="1">
           <mxGeometry y="124" width="266" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lBknwlXfeH6rz31EGaJP-2" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jGy2fupayMAlgPWBiWUq-165" target="jGy2fupayMAlgPWBiWUq-132">
+        <mxCell id="lBknwlXfeH6rz31EGaJP-2" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jGy2fupayMAlgPWBiWUq-165" target="jGy2fupayMAlgPWBiWUq-132" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-120" y="452" as="sourcePoint" />
             <mxPoint x="182" y="441" as="targetPoint" />
