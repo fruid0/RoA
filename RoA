@@ -96,16 +96,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-146" value="ChooseCountry Screen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="45" width="267" height="125" as="geometry" />
+          <mxGeometry x="670" y="38" width="267" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="jGy2fupayMAlgPWBiWUq-147" value="&lt;div&gt;- ButtonPlay: Bool&lt;/div&gt;&lt;div&gt;- TextPlay: string&lt;/div&gt;&lt;div&gt;- User: Int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-146" vertex="1">
-          <mxGeometry y="26" width="267" height="54" as="geometry" />
+        <mxCell id="jGy2fupayMAlgPWBiWUq-147" value="&lt;div&gt;- ButtonPlay: Bool&lt;/div&gt;&lt;div&gt;- TextPlay: string&lt;/div&gt;&lt;div&gt;- User: Int&lt;/div&gt;&lt;div&gt;- SceneName: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-146" vertex="1">
+          <mxGeometry y="26" width="267" height="68" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-148" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jGy2fupayMAlgPWBiWUq-146" vertex="1">
-          <mxGeometry y="80" width="267" height="8" as="geometry" />
+          <mxGeometry y="94" width="267" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-149" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ GotoPlay(ButtonPlay, FactionSet()): Void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jGy2fupayMAlgPWBiWUq-146" vertex="1">
-          <mxGeometry y="88" width="267" height="37" as="geometry" />
+          <mxGeometry y="102" width="267" height="37" as="geometry" />
         </mxCell>
         <mxCell id="jGy2fupayMAlgPWBiWUq-150" value="Faction List" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="716" y="264" width="175" height="116" as="geometry" />
